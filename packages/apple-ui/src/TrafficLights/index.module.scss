@@ -1,0 +1,7 @@
+.TrafficLights {
+  margin: 3px;
+  & > * {
+    margin: 5px;
+  }
+}
+
