@@ -1,18 +1,18 @@
 {
-  "name": "learn-to-build-react-package",
+  "name": "apple-ui",
   "private": true,
   "description": "Learn to to build react package",
   "keywords": [],
-  "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
+  "author": "Shkumbin Hasani <shkumbinhasani2000@gmail.com>",
   "workspaces": [
     "examples/*",
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build --scope my-react-package",
-    "clean": "lerna run clean --scope my-react-package",
-    "watch": "lerna run watch --scope my-react-package",
-    "package": "lerna exec --scope my-react-package -- npm pack"
+    "build": "lerna run build --scope apple-ui",
+    "clean": "lerna run clean --scope apple-ui",
+    "watch": "lerna run watch --scope apple-ui",
+    "package": "lerna exec --scope apple-ui -- npm pack"
   },
   "devDependencies": {
     "@types/react": "^17.0.6",

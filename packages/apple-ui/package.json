@@ -1,7 +1,7 @@
 {
-  "name": "apple-ui",
+  "name": "@shkumbinhsn/apple-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Components based on apple's design system",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -16,8 +16,9 @@
     "watch": "rollup -cw"
   },
   "keywords": [],
-  "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
+  "author": "Shkumbin Hasani <shkumbinhasani2000@gmail.com>",
   "license": "MIT",
+  "private": false,
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -37,5 +38,16 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shkumbinhasani/apple-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shkumbinhasani/apple-ui/issues"
+  },
+  "homepage": "https://github.com/shkumbinhasani/apple-ui#readme"
 }
